@@ -35,7 +35,7 @@ Führe ein Refactoring des Headers customer.h in modernes C++ durch. Ziel ist es
 - Der Kundendatenformatierer ruft die Kundendaten selbständig aus dem Kunden-Archiv. (Unabhängig von der Speichermethode des Archivs)
 - Die Kundendaten sollen für den Ausgabetext in folgendem Format formatiert sein:
 	- Wenn der Kunde gefunden wurde:
-		- <Nachname>, <Vorname>, <Postleitzahl> <Stadt>, <Lieblingsfarbe>
+		- `<Nachname>, <Vorname>, <Postleitzahl> <Stadt>, <Lieblingsfarbe>`
 		- Beispiel: "Müller, Hans, 677742 Lauterecken, Blau"
 	- Wenn kein Kunde gefunden wurde:
 		- "(kein Kunde)"
